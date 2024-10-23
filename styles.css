@@ -1,2 +1,33 @@
-
-/* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	 font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+}
+.movie{
+	 display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.moviePic {
+    height: 500px;
+    width: 800px;
+    opacity: 0.9;
+}
+.movieDetail {
+    position: relative;
+    top: 20px;
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    /* margin-top: 20px; */
+    /* padding: 10px 20px; */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
